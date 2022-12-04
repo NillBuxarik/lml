@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\Advertisement.css" />
+    <Content Remove="wwwroot\css\Authorization.css" />
+    <Content Remove="wwwroot\css\ecsperty.css" />
+    <Content Remove="wwwroot\css\heder.css" />
+    <Content Remove="wwwroot\css\Leave_a_request.css" />
+    <Content Remove="wwwroot\css\List_of_experts.css" />
+    <Content Remove="wwwroot\css\Personal_account.css" />
+    <Content Remove="wwwroot\css\Registration.css" />
+    <Content Remove="wwwroot\css\Reting.css" />
+    <Content Remove="wwwroot\css\sec1.css" />
+    <Content Remove="wwwroot\css\style.css" />
+    <Content Remove="wwwroot\css\Zayavki_admina.css" />
+    <Content Remove="wwwroot\css\Zayvka.css" />
+    <Content Remove="wwwroot\css\_fonts.css" />
+    <Content Remove="wwwroot\css\_global.css" />
+    <Content Remove="wwwroot\css\_media.css" />
+    <Content Remove="wwwroot\css\_normalize.css" />
+    <Content Remove="wwwroot\css\_overall.css" />
+    <Content Remove="wwwroot\css\_variables.css" />
+    <Content Remove="wwwroot\css\_vendor.css" />
+    <Content Remove="wwwroot\index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\index.html" />
+    <None Include="wwwroot\css\Advertisement.css" />
+    <None Include="wwwroot\css\Authorization.css" />
+    <None Include="wwwroot\css\ecsperty.css" />
+    <None Include="wwwroot\css\heder.css" />
+    <None Include="wwwroot\css\Leave_a_request.css" />
+    <None Include="wwwroot\css\List_of_experts.css" />
+    <None Include="wwwroot\css\Personal_account.css" />
+    <None Include="wwwroot\css\Registration.css" />
+    <None Include="wwwroot\css\Reting.css" />
+    <None Include="wwwroot\css\sec1.css" />
+    <None Include="wwwroot\css\style.css" />
+    <None Include="wwwroot\css\Zayavki_admina.css" />
+    <None Include="wwwroot\css\Zayvka.css" />
+    <None Include="wwwroot\css\_fonts.css" />
+    <None Include="wwwroot\css\_global.css" />
+    <None Include="wwwroot\css\_media.css" />
+    <None Include="wwwroot\css\_normalize.css" />
+    <None Include="wwwroot\css\_overall.css" />
+    <None Include="wwwroot\css\_variables.css" />
+    <None Include="wwwroot\css\_vendor.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>

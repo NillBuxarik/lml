@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "JibSAldGRLk8wqxd2KDa8VGp60CpFlECKmh8j6zALvU=",
+  "Source": "Web1",
+  "BasePath": "_content/Web1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Web1\\wwwroot",
+      "Source": "Web1",
+      "ContentRoot": "C:\\Mods\\f\\Web\\Web1\\wwwroot\\",
+      "BasePath": "_content/Web1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
